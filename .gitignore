@@ -12,9 +12,8 @@ __pycache__/
 *.swp
 *.swo
 
-# Data and models (large files - regenerate with scripts)
+# Data (regenerate with scripts)
 data/
-models/
 
 # OS
 .DS_Store
