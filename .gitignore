@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and models (large files - regenerate with scripts)
+data/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
