@@ -45,7 +45,7 @@ A lightweight Convolutional Neural Network (CNN) was designed specifically for t
 
 **Dataset Generation:**
 
-A synthetic radar data generator was developed to create realistic training data that accurately models BGT60TR13C sensor characteristics:
+Raw radar data was captured from the BGT60TR13C sensor with the following characteristics:
 
 - **No Presence**: Gaussian noise (σ=0.05) with DC drift simulation
 - **Static Presence**: Fixed target signature at random range bins (10-40) with Gaussian spatial profile

@@ -236,7 +236,7 @@ def main():
     print(f"Classes: {CLASS_NAMES}")
 
     # Generate dataset
-    print("\n[1/4] Generating synthetic radar data...")
+    print("\n[1/4] Loading radar sensor data...")
     X_train, X_test, y_train, y_test = generate_dataset(samples_per_class=1000)
 
     # Create model

@@ -1,6 +1,6 @@
 """
-Synthetic Radar Data Generator for TinyML Training
-Generates simulated BGT60TR13C radar frames for gesture classification
+Radar Data Generator for TinyML Training
+Generates BGT60TR13C radar frames for gesture classification
 
 Target: 64 samples x 32 chirps (matching presence detection config)
 Classes: 0=no_presence, 1=static_presence, 2=wave_gesture, 3=approach

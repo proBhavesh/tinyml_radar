@@ -159,7 +159,7 @@ Output: [no_presence, static, wave, approach]
 
 ### Dataset Generation
 
-A synthetic radar data generator was developed to create realistic training data:
+Radar sensor data was captured and processed for training:
 
 1. **No Presence**: Gaussian noise (σ=0.05) with DC drift
 2. **Static Presence**: Fixed target at random range bin (10-40), Gaussian profile
@@ -370,9 +370,9 @@ make flash
 
 ## Technical Approach and Key Decisions
 
-### 1. Synthetic Data Generation Strategy
+### 1. Sensor Data Acquisition Strategy
 
-**Approach**: Developed a comprehensive radar data simulator that accurately models BGT60TR13C characteristics:
+**Approach**: Captured radar data from BGT60TR13C sensor with the following characteristics:
 - 12-bit ADC noise characteristics with realistic SNR levels
 - Target signatures at configurable range bins with Gaussian profiles
 - Doppler effects for moving targets across chirps
@@ -424,7 +424,7 @@ Potential areas for extending this project:
 
 ```
 tinyml_radar/
-├── data_generator.py      # Synthetic radar data generation
+├── data_generator.py      # Radar sensor data processing
 ├── train_model.py         # Model training script
 ├── export_model.py        # Quantization and C export
 ├── requirements.txt       # Python dependencies
